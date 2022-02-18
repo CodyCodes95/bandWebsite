@@ -6,11 +6,15 @@ body {
   font-family: "Fjalla One", sans-serif;
   color: greenyellow;
   font-size: 35px;
+  padding-left: 10px;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 .content {
   font-family: "Poppins", sans-serif;
   color: aliceblue;
+  padding: 12px;
 }
 
 footer {
@@ -92,3 +96,25 @@ button {
 button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
+
+.collec{
+  padding: 20px;
+  padding-top: 50px;
+  
+}
+
+/* #scs{
+  position: absolute;
+  right: 20px;
+  text-align: center;
+  
+} */
+
+#members{
+  list-style-type: none;
+}
+
+#divpic{
+  text-align: center;
+}
+
