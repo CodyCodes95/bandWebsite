@@ -118,3 +118,13 @@ button:hover {
   text-align: center;
 }
 
+.centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#tracks{
+  padding: 20px;
+}
