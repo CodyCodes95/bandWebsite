@@ -1,0 +1,94 @@
+body {
+  background-color: #434744;
+}
+
+.heading {
+  font-family: "Fjalla One", sans-serif;
+  color: greenyellow;
+  font-size: 35px;
+}
+
+.content {
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+}
+
+footer {
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  font-size: x-small;
+}
+
+.email {
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  font-size: x-small;
+}
+
+
+img {
+  width: 300px;
+}
+
+h3 {
+  color: aliceblue;
+  font-family: "Fjalla One", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  cursor: pointer;
+  width: 90px;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
